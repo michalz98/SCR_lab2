@@ -2,7 +2,7 @@
 
 day=$(date +%a)
 echo "dzien przed uzyciem LC_: $day"
-export LC_ALL=en
+LC_ALL=en
 day=$(date +%a)
 # do testow
 #day=$(date -d saturday +%a)
